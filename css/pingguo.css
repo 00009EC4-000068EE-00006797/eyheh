@@ -1,0 +1,332 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.clear:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.headerAd{
+	background: #444;
+	height: 40px;
+	color: #a8a8aa;
+}
+.headerAd .adContent{
+	width: 976px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: right;
+	line-height: 40px;
+	font-size: 12px;
+}
+.nav{
+	height:44px ;
+	background: rgba(45,45,45,0.98);
+}
+.nav .navContent{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav .navContent a{
+	display: inline-block;
+	width: 111px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+	float: left;
+	text-decoration: none;
+	
+}
+.nav .navContent .logo{
+	background-image: url(https://www.apple.com/ac/globalnav/4/zh_CN/images/globalnav/apple/image_large.svg);
+background-repeat: no-repeat;
+background-position: center;
+	float: right;
+}
+.nav .navContent .buyCar{
+	background-image: url(https://www.apple.com/ac/globalnav/4/zh_CN/images/globalnav/search/image_large.svg);
+background-repeat: no-repeat;
+background-position: center;
+	float: right;
+
+}
+.nav .navContent .search{
+	background-image: url(https://www.apple.com/ac/globalnav/4/zh_CN/images/globalnav/bag/image_large.svg);
+
+background-repeat: no-repeat;
+background-position: center;
+	float: right;
+}
+.banner a{
+	 text-decoration: none
+}
+
+.b1{
+	margin-top: 84px;
+}
+.banner{
+	text-align: center;
+	padding: 50px 20px;
+	background-color: #fafafa;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.banner a1{
+	font-size: 32px;
+	padding: 10px 0px 0px 0px;
+}
+.banner a2{
+	font-size: 32px;
+	padding: 10px 0;
+}
+.banner p{
+	line-height: 1.38;
+	font-size: 24px;
+    font-weight: 400;
+}
+.b2{
+	margin-top: 20px;
+	height: 692px;
+	background-image: url(../img/iphone_xr.jpg);
+	background-repeat: no-repeat;
+background-position: center bottom;
+}
+.b3 img{
+	
+	width:300px ;
+	height:35px ;
+}
+.b3{
+	margin-top: 20px;
+	height: 692px;
+	background-image: url(https://www.apple.com/v/home/ei/images/heroes/spring-iphone-xs/iphone_xs__cm637qa5dno2_medium_2x.jpg);
+	Background-size:800px 450px;
+	background-repeat: no-repeat;
+background-position: center bottom;
+}
+
+.b4{
+	margin-top: 20px;
+	height: 692px;
+	background-image: url(https://www.apple.com/cn/home/images/heroes/watch-series-4/series_4__b539g9eyf22u_medium_2x.jpg);
+	Background-size:1200px 750px;
+	background-repeat: no-repeat;
+background-position: center bottom;
+}
+.adList .banner{
+	width: 50%;
+	height: 592px;
+	float: left;
+	color: #fff;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.adList .banner h1{
+	padding: 0;
+}
+.adList .banner p{
+	font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    
+}
+.adList .banner a{
+	font-size: 14px;
+    line-height: 1.23543;
+    font-weight: 400;
+    color: #fff;
+     text-decoration: none
+}
+.adList .a1{
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-left:12px solid #fff ;
+	border-right:6px solid #fff ;
+	
+	background-image: url(https://www.apple.com/v/home/ei/images/promos/wwdc/skull__jn6pp5vdfeq2_medium_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #121a2f;
+}
+.adList .a2{
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-right:12px solid #fff ;
+	border-left:6px solid #fff ;
+
+	background-image: url(https://www.apple.com/v/home/ei/images/promos/apple-music/apple_music__gdfamywhn6ye_medium_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+.adList .a2 .link span img{
+	width: 10px;
+	height: 10px;
+}
+
+.banner .a2 .a3 img{
+	background-position: bottom center;
+}
+
+
+
+
+
+
+
+
+.adLis .banne{
+	width: 50%;
+	height: 592px;
+	float: left;
+	color: #fff;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.adLis .banne{
+	color: black;
+    text-align: center;
+}
+.adLis .banne p{
+	font-size: 27px;
+    line-height: 1.2381;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.adLis .banne a{
+	font-size: 14px;
+    line-height: 1.23543;
+    font-weight: 400;
+    color: black;
+     text-decoration: none
+}
+.adLis .a3{
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-left:12px solid #fff ;
+	border-right:6px solid #fff ;
+	
+	background-image: url(https://www.apple.com/v/home/ei/images/promos/ipad-pro/ipad_pro__cesqtbwwmi2u_small_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	background-position:bottom center;
+	
+}
+.adLis .a4{
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-right:12px solid #fff ;
+	border-left:6px solid #fff ;
+
+	background-image: url(https://www.apple.com/v/home/ei/images/promos/macbook-air/macbook_air__knzp0i282eyy_medium_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 80%;
+	background-position: bottom center;
+}
+
+
+
+
+
+
+.adLi .bann{
+	width: 50%;
+	height: 592px;
+	float: left;
+	color: #fff;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.adLi .bann{
+	color: black;
+    text-align: center;
+}
+.adLi .bann p{
+	font-size: 27px;
+    line-height: 1.2381;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+.adLi .a5{
+	font-size: 14px;
+    line-height: 1.23543;
+    font-weight: 400;
+    color: black;
+}
+.adLi .bann a{
+ text-decoration: none
+}
+.adLi .a6 p{
+	font-size: 30px;
+    line-height: 1.23543;
+    font-weight: 400;
+	color: #fff;
+	 text-align: bottom;
+}
+.adLi .a5{
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-left:12px solid #fff ;
+	border-right:6px solid #fff ;
+	
+	background-image: url(https://www.apple.com/v/home/ei/images/promos/airpods/airpods_magic__geiladfa3kqe_medium_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 90%;
+	background-position:top center;
+	
+}
+.adLi .a6{
+	border-top:12px solid #fff ;
+	border-bottom:12px solid #fff ;
+	border-right:12px solid #fff ;
+	border-left:6px solid #fff ;
+
+	background-image: url(https://www.apple.com/cn/home/images/promos/thats-iphone/100_things__f273j3ysx46e_medium_2x.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: top center;
+}
+.footer{
+	margin-top: 10px;
+	background-color: #f2f2f2;
+}
+
+.fmain{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.item{
+	width: 20%;
+	float: left;
+	
+}
+.item h5{
+	padding: 10px 0;
+}
+.item a{
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+	margin: 0 0 10px;
+}
+
+.g{
+	font-size: 12px;
+	color: #333;
+	margin-top: 10px;
+}
+.f{
+
+	font-size: 12px;
+	color: #333;
+	margin-top: 10px;	
+}
